@@ -1,0 +1,22 @@
+.example-spacer {
+    flex: 1 1 auto;
+  }
+  .example-additional-selection {
+    opacity: 0.75;
+    font-size: 0.75em;
+  }
+  .container {
+    width: 100%;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+  }
+  
+  .item {
+    width: 100%;
+    padding: 0.25rem;
+    box-sizing: border-box;
+    font-size: 0.90em;
+    text-align: left;
+    border-left: 5px solid black;
+  }
