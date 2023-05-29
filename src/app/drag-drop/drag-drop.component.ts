@@ -1,3 +1,4 @@
+import { HttpParams } from '@angular/common/http';
 import { Component } from '@angular/core';
 
 @Component({
@@ -6,5 +7,6 @@ import { Component } from '@angular/core';
   styleUrls: ['./drag-drop.component.scss']
 })
 export class DragDropComponent {
-
+  uploadUrl: string = 'http://localhost:8888/api/report/upload';
+  params = new HttpParams().set('file', 'file');
 }
