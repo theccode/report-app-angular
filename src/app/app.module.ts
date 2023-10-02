@@ -14,11 +14,13 @@ import {MatTableModule} from '@angular/material/table';
 import { MatFileUploadModule } from 'angular-material-fileupload';
 import {MatBottomSheetModule} from '@angular/material/bottom-sheet';
 import { DragDropComponent } from './drag-drop/drag-drop.component';
+import { VectaryViewerComponent } from './vectary-viewer/vectary-viewer.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    DragDropComponent
+    DragDropComponent,
+    VectaryViewerComponent
   ],
   imports: [
     BrowserModule,

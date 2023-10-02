@@ -4,6 +4,7 @@ import { FormControl } from '@angular/forms';
 import { MatTableDataSource } from '@angular/material/table';
 import { DragDropComponent } from './drag-drop/drag-drop.component';
 import { MatBottomSheet } from '@angular/material/bottom-sheet';
+import { VectaryViewerComponent } from './vectary-viewer/vectary-viewer.component';
 
 @Component({
   selector: 'app-root',
@@ -67,5 +68,8 @@ export class AppComponent implements OnInit {
   }
   openBottomSheet(){
     this._bottomSheet.open(DragDropComponent)
+  }
+  openVectaryViewer(){
+    this._bottomSheet.open(VectaryViewerComponent);
   }
 }

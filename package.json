@@ -23,7 +23,8 @@
     "angular-material-fileupload": "^3.0.2",
     "rxjs": "~7.8.0",
     "tslib": "^2.3.0",
-    "zone.js": "~0.12.0"
+    "zone.js": "~0.12.0",
+    "VctrApi":"https://www.vectary.com/viewer-api/v1/api.js"
   },
   "devDependencies": {
     "@angular-devkit/build-angular": "^15.2.6",
